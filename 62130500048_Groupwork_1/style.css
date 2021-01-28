@@ -3,7 +3,7 @@ body {
 }
 
 .button1 {
-    background-color: #5D2057;
+    background-color: #5e2657;
 }
 
 .button1:hover {
@@ -12,9 +12,9 @@ body {
 
 .button2 {
     background-color: white;
+    color: #461A42;
 }
 
 .button2:hover {
-    background-color: rgba(255,164,2,0.1);
-    
+    background-color: #fdf6e5;
 }
