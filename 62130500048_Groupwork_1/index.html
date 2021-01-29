@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Vue Js - HelloWorld App</title>
+    <title>Quizizz — The world’s most engaging learning platform</title>
 
     <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
     <!-- Using via Google Web Fonts -->
@@ -29,28 +29,78 @@
 
 </head>
 
-<body>
-    <div id="navbar" class="border-b-2 border-gray-100 sticky top-0">
+<body class="w-screen overflow-x-hidden">
+    <div id="navbar" class="border-b-2 border-gray-100 sticky top-0 bg-white">
         <div class="container mx-auto">
-            <div class="flex justify-between text-xl items-center h-16">
-                <div>
-                    <img src="./images/quizizz-logo.png" class="w-28">
-                </div>
-                <div class="ml-32">
-                    <a href="#" class="px-4 py-2 button2 rounded-lg hover:rounded-lg">For Work</a>
-                    <a href="#" class="px-4 py-2 button2 rounded-lg hover:rounded-lg">For Teachers</a>
-                </div>
-                <div>
-                    <a href="#" class="mx-1 px-4 py-2 button2 rounded-lg hover:rounded-lg">Enter code</a>
-                    <a href="#" class="px-5 py-3 rounded-lg text-white button1">
-                        Sign up &nbsp;
-                        <i class="fas fa-angle-right"></i>
-                    </a>
+            <div class="mx-5">
+                <div class="flex justify-between text-xl items-center h-16">
+                    <div>
+                        <img src="./images/quizizz-logo.png" class="w-28">
+                    </div>
+                    <div class="ml-32">
+                        <a href="#" class="px-4 py-2 button2 rounded-lg hover:rounded-lg">For Work</a>
+                        <a href="#" class="px-4 py-2 button2 rounded-lg hover:rounded-lg">For Teachers</a>
+                    </div>
+                    <div>
+                        <a href="#" class="mx-1 px-4 py-2 button2 rounded-lg hover:rounded-lg">Enter code</a>
+                        <a href="#" class="px-5 py-3 rounded-lg text-white button1">
+                            Sign up &nbsp;
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="landing1">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-3">
+                <div class="ml-16">
+                    <h1 class="text-6xl font-bold text-purple mt-20">
+                        The 100%
+                        <br>
+                        engagement
+                        <br>
+                        platform
+                    </h1>
+                    <br>
+                    <p class="text-lg text-purplegray">
+                        Find and create free gamified quizzes and
+                        <br>
+                        interactive lessons to engage any learner.
+                    </p>
+                    <br>
+                    <br>
+                    <a href="#"
+                        class="button3 text-white text-xl font-semibold px-8 py-5 rounded-lg transition duration-150 ease">
+                        Get started &nbsp;
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                    <a href="#"
+                        class="button4 text-xl font-semibold px-8 py-5 ml-3 rounded-lg hover:rounded-lg hover:bg-gray-200">
+                        Log In &nbsp;
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                    <div class="mt-40 flex justify-start items-center h-20 text-purple border px-8 rounded-lg border-purple-900 mb-8">
+                        <i class="fas fa-globe-asia text-6xl"></i>
+                        <p class="ml-4 font-semibold">
+                            Used by more than 50 million
+                            <br>
+                            people around the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-2 flex flex-wrap content-end w-5/6">
+                    <img src="./images/bg1.png" class="ml-12">
+                </div>
+                
+            </div>
+        </div>
+        <div id="ribbon" style="background-color: #fdf6e5; z-index: -1;" class="w-screen h-72 transform -skew-y-3 absolute top-2/3"></div>
+    </div>
+    <div class="h-60 bg-white">
 
+    </div>
     <!-- my main.js -->
     <sc src="./main.js"></sc>
 </body>

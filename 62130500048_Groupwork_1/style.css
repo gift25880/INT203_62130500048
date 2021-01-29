@@ -18,3 +18,30 @@ body {
 .button2:hover {
     background-color: #fdf6e5;
 }
+
+.text-purple {
+    color: #461A42;
+}
+
+.text-purplegray {
+    color: #73747E;
+}
+
+.button3 {
+    background-color: #5e2657;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 10%), 0px 4px 0px #381535;
+}
+
+.button3:hover {
+    box-shadow: none;
+    padding-top: 1rem;
+}
+
+.button4 {
+    background-color: white;
+    color: #461A42;
+}
+
+.button4:hover {
+    background-color: rgba(0,0,0,0.1);
+}
