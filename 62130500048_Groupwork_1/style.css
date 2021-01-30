@@ -23,6 +23,10 @@ body {
     color: #461A42;
 }
 
+.text-purple2 {
+    color: #5d2057;
+}
+
 .text-purplegray {
     color: #73747E;
 }
@@ -52,4 +56,8 @@ body {
 
 .filter-blue {
     filter: grayscale(100%) brightness(80%) sepia(80%) hue-rotate(-220deg) saturate(700%) contrast(0.8);
+}
+
+.border-purple {
+    border-color: #461A42;
 }
