@@ -66,6 +66,10 @@ body {
     background: linear-gradient(90deg, #572842 0%, #4e2150 100%);
 }
 
+.bg-yellow {
+    background-color: #fffaf2;
+}
+
 .learn-more-left {
     background-color: #fefaf2;
     box-shadow: 0px 4px 10px rgb(0 0 0 / 10%), 0px 4px 0px #f0a120;
@@ -89,4 +93,44 @@ body {
 
 .button6:hover {
     background-color: #6c4298;
+}
+
+.button7 {
+    background-color: #fcfcfc;
+}
+
+.button7:hover {
+    background-color: #9a4492;
+}
+
+.button8 {
+    background-color: #fcfcfc;
+}
+
+.button8:hover {
+    background-color: #2f70ae;
+}
+
+.button9 {
+    background-color: #fcfcfc;
+}
+
+.button9:hover {
+    background-color: #4c9ea7;
+}
+
+.button10 {
+    background-color: #fcfcfc;
+}
+
+.button10:hover {
+    background-color: #efa929;
+}
+
+.button11 {
+    background-color: #fcfcfc;
+}
+
+.button11:hover {
+    background-color: #d5546d;
 }
